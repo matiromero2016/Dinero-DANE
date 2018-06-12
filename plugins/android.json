@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "prepare_queue": {
     "installed": [],
     "uninstalled": []
@@ -12,4 +13,19 @@
     }
   },
   "dependent_plugins": {}
+=======
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-app-preferences": {
+            "PACKAGE_NAME": "com.monedasybilletes"
+        }
+    },
+    "dependent_plugins": {}
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
 }

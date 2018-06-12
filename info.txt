@@ -80,9 +80,16 @@ Config.xml file:
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+<<<<<<< HEAD
     <plugin name="cordova-plugin-app-preferences" spec="^0.99.3" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <engine name="ios" spec="^4.4.0" />
+=======
+    <engine name="android" spec="^6.2.3" />
+    <engine name="ios" spec="^4.4.0" />
+    <plugin name="cordova-plugin-app-preferences" spec="^0.99.3" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
 </widget>
 
 
@@ -90,6 +97,16 @@ Plugins:
 
 cordova-plugin-app-preferences,cordova-plugin-file,cordova-plugin-media,cordova-plugin-whitelist
 
+<<<<<<< HEAD
+=======
+Error retrieving Android platform information: 
+Android SDK is not set up properly. Make sure that the Android SDK 'tools' and 'platform-tools' directories are in the PATH variable. 
+
+Error: cmd: Command failed with exit code 1 Error output:
+"android" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
 
 
 Error retrieving iOS platform information: Error: cmd: Command failed with exit code 1 Error output:

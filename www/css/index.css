@@ -354,6 +354,7 @@ div.dialog:after{
 	border-color: #FFFFFF transparent transparent transparent;
 }
 
+<<<<<<< HEAD
 /*Compra Exacta y Vuelto*/
 .cve-dialog-error{
 	left:21%  !important;
@@ -370,6 +371,8 @@ div.dialog:after{
 	display:none;
 }
 
+=======
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
 div.dialog-txt{
 	position:absolute;
 	height: 80% !important;
@@ -381,6 +384,7 @@ div.dialog-txt{
 	vertical-align: middle;
 }
 
+<<<<<<< HEAD
 .dialog-error{
 	position:absolute;
 	height: 80% !important;
@@ -393,6 +397,8 @@ div.dialog-txt{
 	color:black;
 	font-size:49px;
 }
+=======
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
 
 /*Posición y tamaño de cada diálogo*/
 .dialog-large-up{
@@ -1958,12 +1964,19 @@ div.dialog-txt{
 .btn-ver-otra-seccion {
 	padding: 10px;
     position: absolute;
+<<<<<<< HEAD
+=======
+    top: 310px;
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
     margin: auto;
     left: 0;
     right: 0;
     text-align: center;
+<<<<<<< HEAD
 	top: 92%;
 	bottom: 1%;
+=======
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
 }
 
 .btn-ver-otra-seccion.btn-conocer-monedas {

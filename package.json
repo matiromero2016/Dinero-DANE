@@ -4,19 +4,32 @@
     "description": "",
     "main": "index.js",
     "dependencies": {
+<<<<<<< HEAD
         "cordova": "^8.0.0",
         "cordova-android": "^7.0.0",
+=======
+        "cordova": "^5.4.1",
+        "cordova-android": "^6.2.3",
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
         "cordova-ios": "^4.4.0",
         "cordova-plugin-app-preferences": "^0.99.3",
         "cordova-plugin-whitelist": "1"
     },
     "devDependencies": {
+<<<<<<< HEAD
         "phonegap": "^8.0.0"
+=======
+        "phonegap": "^6.3.3"
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
     },
     "author": "FDV Solutions",
     "license": "UNLICENSED",
     "cordova": {
         "platforms": [
+<<<<<<< HEAD
+=======
+            "android",
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
             "ios"
         ],
         "plugins": {

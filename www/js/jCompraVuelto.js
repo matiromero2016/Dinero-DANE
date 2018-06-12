@@ -469,7 +469,10 @@ var c1 = {
 						// };
 					},300);
 				}else{
+<<<<<<< HEAD
 					$("#cds-r1-dialog-0-99").show().delay(1200).hide(400);
+=======
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
 					elemAnimador.start(this,1200);
 
 					// url = audios.errores.intenta_de_nuevo;
@@ -672,7 +675,10 @@ var c2 = {
 				fillSpanWithCorrectFontSize( $multipleChoiceTxt, null, null, "black" );
 
 			}else{
+<<<<<<< HEAD
 				$("#cds-r1-dialog-0-99").show().delay(1200).hide(400);
+=======
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
 				elemAnimador.start($prodElegidoImg[0],1200);
 				// if (playingNow == 1) {
 				// 	sound.stop();
@@ -711,7 +717,10 @@ var c2 = {
 						$elegidoContainer.html("");
 					},300);
 				}else{
+<<<<<<< HEAD
 					$("#cds-r1-dialog-0-99").show().delay(1200).hide(400);
+=======
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
 					elemAnimador.start(this,1200);
 
 					// if (playingNow ===1) {
@@ -1056,7 +1065,10 @@ var c3 = {
 						$("#c3-compra-v .usado").removeClass("usado");
 					},300);
 				}else{
+<<<<<<< HEAD
 					$("#cds-r1-dialog-0-99").show().delay(1200).hide(400);
+=======
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
 					elemAnimador.start(this,1200);
 
 			  //      	if (playingNow === 1) {
@@ -1406,7 +1418,10 @@ var c4 = {
 						$("#c4-compra-v .usado").removeClass("usado");
 					},300);
 				}else{
+<<<<<<< HEAD
 					$("#cds-r1-dialog-0-99").show().delay(1200).hide(400);
+=======
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
 					elemAnimador.start(this,1200);
 					// url = audios.errores.intenta_de_nuevo;
 					// compraVuelto.soundsManager.playSound(url);
@@ -1474,6 +1489,7 @@ var compraVuelto = {
 	},
 
 	initialize: function(){
+<<<<<<< HEAD
 		this.calculator = new Calculator();
 		// this.soundsManager = new SoundsManager();
 		this.setUpGamePages();
@@ -1491,11 +1507,18 @@ var compraVuelto = {
 		$(".btn-close-calculator").click({ context: this}, function(evt){
 			evt.data.context.hideCalculator();
 		});
+=======
+		// this.soundsManager = new SoundsManager();
+		this.setUpGamePages();
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
 		// audio.initialize(this.soundsManager);
 	},
 
 	setUpGamePages: function(){
+<<<<<<< HEAD
 		
+=======
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
 		/*Setea los bindings para inicializar el estado al mostrar cada p�gina.*/
 		$(document).on("pagecontainerbeforeshow", function(event, ui) {
 			var idPage = ui.toPage[0].id;
@@ -1527,6 +1550,7 @@ var compraVuelto = {
 				value.setUp();
 			};
 		});
+<<<<<<< HEAD
 	},
 	
 		showCalculator: function() {
@@ -1640,5 +1664,7 @@ var contarDinero = {
 		/*$(".wrapper-calculator").css({
 			left: '-290px'
 		})*/
+=======
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
 	}
 };

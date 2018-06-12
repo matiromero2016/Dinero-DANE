@@ -281,7 +281,10 @@ var r1 = {
 
 					},300);
 				}else{
+<<<<<<< HEAD
 					$("#cds-r1-dialog-0-99").show().delay(1200).hide(400);
+=======
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
 					elemAnimador.start(this,1200);
 					// otraVezPlay();
 				}
@@ -412,7 +415,10 @@ var r2 = {
 				$(value).addClass("correcto");
 			}else{
 				$(value).removeClass("correcto");
+<<<<<<< HEAD
 				
+=======
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
 			};
 
 			index++;
@@ -473,7 +479,10 @@ var r2 = {
 						// };
 					},0);
 				}else{
+<<<<<<< HEAD
 					$("#cds-r1-dialog-0-99").show().delay(1200).hide(400);
+=======
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
 					elemAnimador.start(this,1200);
 
 			        // otraVezPlay();
@@ -628,9 +637,14 @@ var r3 = {
 						// };
 					},300);
 				}else{
+<<<<<<< HEAD
 					$("#cds-r1-dialog-0-99").show().delay(1200).hide(400);
 					elemAnimador.start(this,1200);
 					//otraVezPlay()
+=======
+					elemAnimador.start(this,1200);
+					otraVezPlay()
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
 				}
 			}
 		});
@@ -806,12 +820,19 @@ var r4 = {
 						// };
 					},300);
 				}else{
+<<<<<<< HEAD
 					$("#cds-r1-dialog-0-99").show().delay(1200).hide(400);
+=======
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
 					elemAnimador.start(this,1200);
 
 			  //       if (nowPlaying == 1) {
 					// 	soundBill.stop();
+<<<<<<< HEAD
 					//otraVezPlay();
+=======
+					otraVezPlay();
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
 					// }
 				}
 			}
@@ -1036,12 +1057,19 @@ var r5 = {
 						// };
 					},300);
 				}else{
+<<<<<<< HEAD
 					$("#cds-r1-dialog-0-99").show().delay(1200).hide(400);
+=======
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
 					elemAnimador.start(this,1200);
 
 			  //       if (nowPlaying == 1) {
 					// 	soundBill.stop();
+<<<<<<< HEAD
 					//otraVezPlay();
+=======
+					otraVezPlay();
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
 					// }
 				}
 			}
@@ -1563,12 +1591,19 @@ var r6 = {
 						// };
 					},300);
 				}else{
+<<<<<<< HEAD
 					$("#cds-r1-dialog-0-99").show().delay(1200).hide(400);
+=======
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
 					elemAnimador.start(this,1200);
 
 			  //       if (nowPlaying == 1) {
 					// 	soundBill.stop();
+<<<<<<< HEAD
 					//otraVezPlay();
+=======
+					otraVezPlay();
+>>>>>>> 2dc2041d728bc738b851949a969baae586667da5
 					// }
 				}
 			}
